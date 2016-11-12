@@ -453,7 +453,7 @@ Grade C
 
 3. รูปแบบการพิมพ์คือ score: [sss] grade: [gg] เมื่อ sss คือคะแนน และ gg คือ เกรดที่ได้
 ![](https://github.com/UkritFB/LAB-08/blob/master/8.GREAD.PNG?raw=true)
-```
+```C#
 using System;
 namespace RandomNumber
 {
