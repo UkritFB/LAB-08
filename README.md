@@ -144,6 +144,7 @@ public class TryCatch
      }
  }
 ```
+#ไม่มีปัญหาสามารถทำงานได้
 ###2.
 ``` csharp
 using System;
@@ -158,6 +159,8 @@ public class TryCatch
      }
  }
 ```
+#มีปัญหาไม่สามารถทำงานได้ เพราะค่าอะไรก็ตามที่หารด้วย 0 ไม่สามารถหาค่าได้ 
+![](https://github.com/UkritFB/LAB-08/blob/master/8.2.PNG?raw=true)
 ###3.
 ``` csharp
 using System;
@@ -174,6 +177,8 @@ public class TryCatch
      }
  }
 ```
+#มีปัญหาไม่สามารถทำงานได้ เพราะ เกิดการ Overflow
+![](https://github.com/UkritFB/LAB-08/blob/master/8.3.PNG?raw=true)
 ###1.1.3. คำสั่ง ```throw```
 
 คำสั่ง ```throw``` ใช้เพื่อเปลี่ยนเส้นทางการทำงานของโปรแกรมโดยเจาะจง exception เป้าหมาย
