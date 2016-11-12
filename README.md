@@ -248,7 +248,7 @@ public class ExceptionLearning
     }
  }
 ````
-
+#คลายๆกับคำสั่งswitchcase แต่เป็นการใช้กับ exception เช่นเมื่อเกิด ขัดของของโปรแกรม  throw exception ก็จะไปหาข้อผิดพลาด ใน catch มาแสดง
 ###เรื่องของ exception นี้ศึกษาเพิ่มเติมได้ [ที่นี่](http://msdn.microsoft.com/en-us/library/vstudio/2w8f0bss%28v=vs.100%29.aspx)
 
 ##1.2.	การเปลี่ยนทิศทางแบบมีเงื่อนไข (Conditional Branching)
