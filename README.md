@@ -452,7 +452,82 @@ Grade C
 0-49|	F
 
 3. รูปแบบการพิมพ์คือ score: [sss] grade: [gg] เมื่อ sss คือคะแนน และ gg คือ เกรดที่ได้
+![](https://github.com/UkritFB/LAB-08/blob/master/8.GREAD.PNG?raw=true)
+```
+using System;
+namespace RandomNumber
+{
+    public class GRADE
+    {
+        static void Main(string[] args)
+        {
 
+        Random random = new Random();
+        int SSS = random.Next(0, 100);
+
+        // int SCORE = Convert.ToInt32(Console.ReadLine());
+        if (SSS >= 0 && SSS <= 100)
+        {
+            if (SSS >= 80)
+            {
+                Console.WriteLine("GRADE  = A");
+            }
+            else
+            {
+                if (SSS >= 75)
+                {
+                    Console.WriteLine("GRADE  = B+");
+                }
+                else
+                {
+                    if (SSS >= 70)
+                    {
+                        Console.WriteLine("GRADE  = B");
+                    }
+                    else
+                    {
+                        if (SSS >= 65)
+                        {
+                            Console.WriteLine("GRADE  = C+");
+                        }
+                        else
+                        {
+                            if (SSS >= 60)
+                            {
+                                Console.WriteLine("GRADE  = C");
+                            }
+                            else
+                            {
+                                if (SSS >= 55)
+                                {
+                                    Console.WriteLine("GRADE  = D+");
+                                }
+                                else
+                                {
+                                    if (SSS >= 50)
+                                    {
+                                        Console.WriteLine("GRADE  = D");
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("GRADE  = F");
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        else
+        {
+            Console.WriteLine("ERROR SCORE = 0 - 100");
+        }
+
+    }
+    }
+}
+```
 ###1.2.5. คำสั่ง ```switch```
 
 ในกรณีที่มีทางเลือกในการตัดสินใจเป็นจำนวนมาก ไม่เป็นการสะดวกที่จะเขียนเป็นโปรแกรมยาวๆ เช่นในกรณีของคำสั่ง if…else…if ภาษา C# มีคำสั่งตัดสินใจเลือกทิศทางของโปรแกรมแบบหลายทางเลือกให้ใช้คือคำสั่ง switch ซึ่งรูปแบบการใช้งาน ดังนี้
