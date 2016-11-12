@@ -605,7 +605,7 @@ fri|	Friday	|Blue
 sat|	Saturday	|Purple
 อื่นๆ|	 ---|	---
 
-
+![](https://github.com/UkritFB/LAB-08/blob/master/8.DAY.PNG?raw=true)
 ##Reference
 เนื้อหาในส่วนนี้เป็นอ้างอิงสำหรับการเขียนโปรแกรม
 
